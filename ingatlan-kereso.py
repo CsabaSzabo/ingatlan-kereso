@@ -205,9 +205,9 @@ def get_apartment_details(apartment_id, apartment_type):
 
     return apartment_details
 
-def get_distance_to_astoria(from_place):
+def get_distance_to_work(from_place):
 
-    to_place = "Budapest,+K%C3%A1roly+krt.+6,+1052"
+    to_place = quote(WORK_PLACE)
     from_place_full = "Budapest," + quote(from_place)
     request_url = "https://maps.googleapis.com/maps/api/distancematrix/json?origins=" + from_place_full + "&destinations=" + to_place + "&mode=transit&key=" + GOOGLE_MAPS_DISTANCE_MATRIX_API_KEY
     r = requests.get(url=request_url)
@@ -230,7 +230,7 @@ def insert_new_row(wks, apartment_details, first_empty_row_index):
 
     apartment_url = apartment_details[1]
     apartment_title = apartment_details[2]
-    apartment_traveltime = get_distance_to_astoria(from_place = apartment_title)
+    apartment_traveltime = get_distance_to_work(from_place = apartment_title)
     apartment_size = apartment_details[3]
     apartment_area_size = apartment_details[4]
     apartment_rooms = apartment_details[5]
