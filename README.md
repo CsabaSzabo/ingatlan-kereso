@@ -35,10 +35,10 @@ HowTo GIF: https://www.twilio.com/blog/wp-content/uploads/2017/02/google-develop
 
 - Copy [this template](https://docs.google.com/spreadsheets/d/1amDZaunjAGld6JRCoIpNg4sxNu-mHLQkDGbHmVx5_iY/edit?usp=sharing) and rename to `ingatlan-kereso`
 - Add new searches to *Keresések* sheet
- - Column A defines the index of the sheet in the `ingatlan-kereso` file
- - Column B defines the ingatlan.com search URL
- - Column C defines the name of the search
- - Column D defines if it's a flat or a house (haz/lakas), it needed for data parsing
+  - Column A defines the index of the sheet in the `ingatlan-kereso` file
+  - Column B defines the ingatlan.com search URL
+  - Column C defines the name of the search
+  - Column D defines if it's a flat or a house (haz/lakas), it needed for data parsing
 - You could add a 3rd search if you add a new row and you create a new sheet into the file which is the 4th sheet in the file (the order of the sheets are important)
 
 ### 5. Run the script
