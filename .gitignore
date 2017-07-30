@@ -99,3 +99,5 @@ ENV/
 
 # mypy
 .mypy_cache/
+ingatlan_kereso_secrets.py
+sheets.googleapis.com-python.json
