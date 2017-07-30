@@ -45,8 +45,4 @@ HowTo GIF: https://www.twilio.com/blog/wp-content/uploads/2017/02/google-develop
 - You could add a 3rd search if you add a new row and you create a new sheet into the file which is the 4th sheet in the file (the order of the sheets are important)
 
 ### 5. Run the script
-- you create a `client_secret.json` from Google (it's added to .gitignore) - howto
-- you copy this Google Sheets template, share it and get the ID of it
-- you copy `ingatlan_kereso_secrets-template.py` to `ingatlan_kereso_secrets.py` and fill the API keys and IDs
-- run the script with `python ingatlan-kereso.py`
-
+Run the script with `python3 ingatlan-kereso.py`, read the output and check your Google Sheet results :)
