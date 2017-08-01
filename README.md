@@ -1,7 +1,8 @@
 # ingatlan-kereso
-Ingatlan.com scraper to list and store 
 
-It's a personal apartment search tool, which helps you to search and track apartments.
+**Features**
+- Searches on Ingatlan.com site (supported sites will be extended later)
+- Put and update all the results into a Google Sheet, which is extendable with your custom information and updated data, so you can track if you like the flat and with additional comments
 
 # How to setup and run
 
@@ -16,7 +17,7 @@ To programmatically access your spreadsheet, you’ll need to create a service a
 
 - Go to the [Google APIs Console](https://console.developers.google.com/).
 - Create a new project.
-- Click *Enable API*. Search for and enable the Google Drive API.
+- Click *Enable API*. Search for and enable the Google Drive API and Google Sheets API
 - *Create credentials* for a *Web Server* to access *Application Data*.
 - Name the service account and grant it a *Project* Role of *Editor*.
 - Download the JSON file.
