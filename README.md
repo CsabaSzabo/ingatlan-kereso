@@ -47,3 +47,4 @@ HowTo GIF: https://www.twilio.com/blog/wp-content/uploads/2017/02/google-develop
 
 ### 5. Run the script
 Run the script with `python3 ingatlan-kereso.py`, read the output and check your Google Sheet results :)
+
